@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hello.svg" alt="Saurav Sah — making useful things feel delightful" width="100%" />
+  <img src="assets/hello.gif" alt="Saurav Sah — making useful things feel delightful" width="100%" />
 </p>
 
 <h1 align="center">Hi, I'm Saurav 👋</h1>
