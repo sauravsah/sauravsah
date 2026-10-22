@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="95" viewBox="0 0 900 95" role="img" aria-labelledby="title">
+  <title id="title">Thanks for stopping by — let's build something useful.</title>
+  <defs><linearGradient id="g"><stop stop-color="#1d2850"/><stop offset="1" stop-color="#174745"/></linearGradient></defs>
+  <rect width="900" height="95" rx="20" fill="url(#g)"/>
+  <circle cx="54" cy="48" r="13" fill="#ffbb73"><animate attributeName="cy" values="48;43;48" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="75" cy="53" r="7" fill="#9d93ff"><animate attributeName="cy" values="53;58;53" dur="2.5s" repeatCount="indefinite"/></circle>
+  <text x="110" y="57" fill="#f6fbff" font-family="Arial,sans-serif" font-size="22" font-weight="bold">Thanks for stopping by. Let's build something useful.</text>
+  <path d="M815 48h38m-12-12 12 12-12 12" fill="none" stroke="#81e5d0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke" values="#81e5d0;#ffbb73;#81e5d0" dur="4s" repeatCount="indefinite"/></path>
+</svg>
+
