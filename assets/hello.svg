@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Saurav Sah — making useful things feel delightful</title>
+  <desc id="desc">Animated midnight-blue banner with colorful orbiting shapes and a cursor.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101629"/><stop offset=".55" stop-color="#182348"/><stop offset="1" stop-color="#172f42"/></linearGradient>
+    <linearGradient id="accent" x2="1" y2="0"><stop stop-color="#65e4ca"/><stop offset=".5" stop-color="#9e91ff"/><stop offset="1" stop-color="#ffb977"/></linearGradient>
+    <clipPath id="round"><rect width="900" height="300" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+    <g opacity=".15" stroke="#a6b8d7" stroke-width="1">
+      <path d="M0 50H900M0 100H900M0 150H900M0 200H900M0 250H900M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300M400 0V300M450 0V300M500 0V300M550 0V300M600 0V300M650 0V300M700 0V300M750 0V300M800 0V300M850 0V300"/>
+    </g>
+    <circle cx="762" cy="145" r="92" fill="none" stroke="#6fe1d3" opacity=".35" stroke-width="2" stroke-dasharray="7 10"/>
+    <circle cx="762" cy="145" r="66" fill="#202d54" stroke="#8c9ed2" stroke-width="2"/>
+    <circle cx="762" cy="145" r="38" fill="url(#accent)" opacity=".9">
+      <animate attributeName="r" values="38;43;38" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 762 145" to="360 762 145" dur="18s" repeatCount="indefinite"/>
+      <circle cx="762" cy="53" r="10" fill="#ffbf7a"/>
+      <circle cx="829" cy="211" r="7" fill="#a89cff"/>
+      <circle cx="696" cy="208" r="6" fill="#70e5ce"/>
+    </g>
+    <g fill="#fff" opacity=".85">
+      <path d="M596 57l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"><animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/></path>
+      <path d="M859 47l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></path>
+    </g>
+    <rect x="54" y="45" width="118" height="29" rx="14.5" fill="#30415b" stroke="#648784"/>
+    <circle cx="71" cy="59.5" r="4" fill="#6de4c9"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="83" y="64" fill="#c9efe8" font-family="Arial,sans-serif" font-size="12" font-weight="bold" letter-spacing="1.5">HELLO WORLD</text>
+    <text x="54" y="135" fill="#f8fbff" font-family="Arial,sans-serif" font-size="54" font-weight="bold">I'm Saurav Sah<tspan fill="#8fe5dc">.</tspan></text>
+    <rect x="55" y="153" width="480" height="4" rx="2" fill="url(#accent)"/>
+    <text x="56" y="198" fill="#d6e3f5" font-family="Arial,sans-serif" font-size="22">Making useful things feel delightful.</text>
+    <text x="56" y="237" fill="#9bb5ca" font-family="Arial,sans-serif" font-size="15" letter-spacing=".7">DESIGN  /  BUILD  /  EXPERIMENT  /  REPEAT</text>
+    <rect x="54" y="259" width="8" height="18" fill="#7be6d6"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
+
